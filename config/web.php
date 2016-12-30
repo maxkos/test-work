@@ -38,8 +38,7 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName'  => false,
             'rules'           => [
-                '/'           => '/site/index',
-                '/short-url'  => '/ShortUrl/default/index',
+                '/'           => '/ShortUrl/default/index',
                 '/<code:\w+>' => '/ShortUrl/default/redirect',
             ],
         ],
